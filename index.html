@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="numbers">
+        <div class="aNum"></div>
+        +
+        <div class="bNum"></div>
+        =
+        <div class="sumNum">
+            <span class="text"></span>
+            <label style="display: none;">
+                <input class="sumInput" autocomplete="off" />
+            </label>
+        </div>
+    </div>
+
+    <div class="task">
+        <div class="firstTask">
+            <div class="firstInput">
+                <label>
+                    <input type="text" class="aInput" autocomplete="off"/>
+                </label>
+                <div class="aNumber" style="display: none;"></div>
+            </div>
+            <img src="arrow.svg" alt="" class="aImg">
+        </div>
+
+        <div class="secondTask">
+            <div class="secondInput" style="display: none;">
+                <label>
+                    <input type="text" class="bInput" autocomplete="off"/>
+                </label>
+                <div class="bNumber" style="display: none;"></div>
+            </div>
+            <img src="arrow.svg" alt="" class="bImg" style="display: none;">
+        </div>
+
+
+        <div class="images"><img src="sprite.png" alt="" class="ruler"></div>
+    </div>
+</body>
+</html>

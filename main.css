@@ -1,0 +1,79 @@
+.numbers {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.task {
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.aNum, .bNum, .sumNum {
+    margin: 0 10px;
+}
+
+.sumInput {
+    position: relative;
+    bottom: 2px;
+    width: 50px;
+    height: 35px;
+    font-size: 0.9em;
+}
+
+.aImg {
+    position: relative;
+    left:35px;
+    z-index: 1;
+}
+
+.bImg {
+    position: relative;
+    left:31px;
+    z-index: 1;
+}
+
+.ruler {
+    position: relative;
+    bottom:25px;
+    z-index: 0;
+}
+
+.firstTask, .secondTask {
+    display: inline-block;
+}
+
+.firstInput, .secondInput, .aInput, .bInput, .aNumber, .bNumber {
+    position: relative;
+    width: 17px;
+    height: 20px;
+    font-size: 1.2em;
+    bottom: 3px;
+    font-family: sans-serif;
+}
+
+.firstInput, .secondInput {
+    left:50%;
+}
+
+.aInput {
+    left: 26px;
+}
+
+.bInput {
+    left: 22px;
+}
+
+.aNumber {
+    left: 31px;
+}
+
+.bNumber  {
+   left: 27px;
+}
